@@ -9,13 +9,6 @@ def go_dependencies():
         version = "v1.1.1",
     )
     go_repository(
-        name = "com_github_decred_dcrd_crypto_blake256",
-        build_file_proto_mode = "disable_global",
-        importpath = "github.com/decred/dcrd/crypto/blake256",
-        sum = "h1:7PltbUIQB7u/FfZ39+DGa/ShuMyJ5ilcvdfma9wOH6Y=",
-        version = "v1.0.1",
-    )
-    go_repository(
         name = "com_github_decred_dcrd_dcrec_secp256k1_v4",
         build_file_proto_mode = "disable_global",
         importpath = "github.com/decred/dcrd/dcrec/secp256k1/v4",
